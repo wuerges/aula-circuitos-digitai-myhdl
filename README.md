@@ -20,3 +20,4 @@ Este link mostra o procedimento: https://asciinema.org/a/bi8438DoT8lGN523YVTBCJI
 
 O myhdl funciona como uma biblioteca do python. Basta importá-lo no arquivo, como está nos exemplos.
 
+O primeiro exemplo apresentado aqui é o [tesbench](examples/testbench.py).
