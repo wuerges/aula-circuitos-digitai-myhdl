@@ -48,6 +48,14 @@ unidade de tempo.
 
 __Atenção:__ o uso do decorador @instance impede que o circuito seja sintetizável.
 
+## Executando o TestBench
+
+Para executar o testbench, basta invocar o arquivo com o python: https://asciinema.org/a/rHSuijCDMDFdaU3FSBprIDyi4
+
+```
+$ python examples/testbench.py
+```
+
 ## Criando um circuito combinacional
 
 O arquivo [examples/somador.py](examples/somador.py) é um exemplo de circuito combinacional,
@@ -116,3 +124,11 @@ O circuito somador é criado dentro do testbench, e recebe os sinais como parâm
 
 A função do_test, com o decorador @instance, implementa o comportamento do testbench.
 Perceba que o valor de _c_ se modifica quando os valores de _a_ e _b_ são alterados, somente após a passagem de uma unidade de tempo.
+
+## Testando o circuito combinacional
+
+O circuito é testado, executando seu testbench: https://asciinema.org/a/Fu6DHZQDpTomRXKuUh9Xfw5vM
+
+```
+$ python examples/somador.py
+```
