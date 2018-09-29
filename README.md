@@ -20,4 +20,5 @@ Este link mostra o procedimento: https://asciinema.org/a/bi8438DoT8lGN523YVTBCJI
 
 O myhdl funciona como uma biblioteca do python. Basta importá-lo no arquivo, como está nos exemplos.
 
-O primeiro exemplo apresentado aqui é o [tesbench](examples/testbench.py).
+O arquivo [examples/testbench.py] é um exemplo de testbench.
+O tesbench é um circuito sequencial não sintetizável, porque usa uma _instance_.
